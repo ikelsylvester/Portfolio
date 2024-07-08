@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: teal;
+    padding: 20px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-nav ul li a:hover {
+    color: tomato;
+}
+
+.body-div {
+    display: flex;
+    margin-top: 3rem; /* Adjusted margin-top for better spacing */
+}
+
+.body-div img {
+    max-width: 50%;
+    height: auto; /* Ensures image height adjusts proportionally */
+    max-height: 300px; /* Adjusted maximum height for better display */
+    margin-right: 20px; /* Added margin to separate image and text */
+}
+
+.paragraph {
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.paragraph p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragraph h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+}
+
+.footer {
+    background-color: darkblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjusted grid layout for better alignment */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer a i {
+    font-size: 2rem;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
